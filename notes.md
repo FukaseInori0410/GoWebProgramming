@@ -11,7 +11,7 @@
 为用户创建同名cookie，将MaxAge参数设置为负数，Expires值设置成过去的时间，比如time.Unix(1,0)，发送给客户端，相当于完全移除了这个cookie。
 # Chapter6 存储数据
 ## 关于Mysql自增列
-[Mysql设置主键自增，删除数据后，主键id依然从删除位置增加 ](https://blog.csdn.net/weixin_45682496/article/details/115862243)
+[Mysql设置主键自增，删除数据后，主键id依然从删除位置增加 ](https://blog.csdn.net/weixin_45682496/article/details/115862243)  
 要使删除后自增列起始数值变化，需使用如下语句：
 ```
 alter table 表名 AUTO_INCREMENT=预期起始值;
